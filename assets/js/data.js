@@ -132,18 +132,6 @@ window.PORTFOLIO = {
       short: 'Undangan acara perayaan perjalanan himpunan dengan nuansa panggung teater.',
       role: 'Desain dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['memoria'], highlights: [],
     },
-    {
-      id: 'wedding', cat: 'undangan', label: '', year: '',
-      title: 'The Wedding of Aldi & Fatima',
-      short: 'Undangan pernikahan digital dengan ornamen klasik dan animasi pembuka.',
-      role: 'Desain dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['wedding'], highlights: [],
-    },
-    {
-      id: 'diesnatalis', cat: 'undangan', label: '', year: '',
-      title: 'Undangan Dies Natalis Prodi',
-      short: 'Undangan digital perayaan dies natalis program studi.',
-      role: 'Desain dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['dies-natalis'], highlights: [],
-    },
   ],
 
   TIMELINE: [
