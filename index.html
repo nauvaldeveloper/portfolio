@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nauval Rafi — Web Developer & Entrepreneur</title>
+  <meta name="description" content="Portofolio Nauval Rafi: web developer dan pendiri Nauval Dev & Nauvite. Website bisnis, sistem web & IoT, dan undangan digital." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0a'/%3E%3Ctext x='12' y='44' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23fff'%3ENR%3C/text%3E%3Ccircle cx='54' cy='40' r='4' fill='%232563eb'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="wrap nav__in">
+      <a href="#top" class="logo" aria-label="Ke atas">NR<span>.</span></a>
+      <nav class="nav__links" aria-label="Navigasi">
+        <a href="#about">About <sup>01</sup></a>
+        <a href="#work">Work <sup>02</sup></a>
+        <a href="#journey">Journey <sup>03</sup></a>
+        <a href="#stack">Stack <sup>04</sup></a>
+      </nav>
+      <a href="#contact" class="btn btn--dark btn--sm nav__cta">Let's Talk</a>
+      <button class="burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mmenu" id="mobileMenu" hidden>
+    <a href="#about">About</a><a href="#work">Work</a><a href="#journey">Journey</a><a href="#stack">Stack</a><a href="#contact">Contact</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <h1 class="hero__name" aria-label="Nauval Rafi">NAUVAL <span class="outline">RAFI</span></h1>
+        <div class="hero__row">
+          <div class="hero__intro">
+            <h2>Web Developer<br />&amp; Entrepreneur</h2>
+            <p>Membangun website yang bekerja untuk bisnis, sistem web yang terhubung dengan perangkat IoT, dan undangan digital yang elegan.</p>
+            <a href="#work" class="btn btn--dark">Lihat karya</a>
+          </div>
+          <figure class="hero__photo">
+            <img src="assets/img/me/hero.webp" alt="Nauval Rafi" width="1100" height="1200" fetchpriority="high" />
+          </figure>
+          <ul class="hero__social" id="heroSocial"></ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Web Development</span><b>*</b><span>Sistem Web &amp; IoT</span><b>*</b><span>UI Design</span><b>*</b><span>Undangan Digital</span><b>*</b>
+        <span>Web Development</span><b>*</b><span>Sistem Web &amp; IoT</span><b>*</b><span>UI Design</span><b>*</b><span>Undangan Digital</span><b>*</b>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="sec" id="about">
+      <div class="wrap">
+        <p class="kicker">/ About</p>
+        <h2 class="sec__title">Get to know me</h2>
+        <div class="about">
+          <figure class="about__photo">
+            <img src="assets/img/me/portrait.webp" alt="Potret Nauval Rafi" width="900" height="900" loading="lazy" />
+            <figcaption>Nauval Rafi Adelia Putra</figcaption>
+          </figure>
+          <div class="about__text">
+            <p class="about__lead">Saya <strong>web developer</strong> dan mahasiswa <strong>Sistem Informasi Kota Cerdas, Telkom University</strong>, yang menjalankan dua bisnis digital: jasa pembuatan website <strong>Nauval Dev</strong> dan undangan digital <strong>Nauvite</strong>.</p>
+            <p>Saya terbiasa mengerjakan dua sisi: website yang rapi dan mudah dipakai pelanggan bisnis lokal, serta sistem yang menghubungkan aplikasi web dengan sensor, kamera, dan model AI. Saya bekerja terstruktur, senang berkolaborasi, dan selalu memastikan hasilnya benar-benar menjawab kebutuhan pengguna.</p>
+            <dl class="stats" id="stats"></dl>
+            <span class="cv" aria-label="Curriculum vitae tersedia atas permintaan">Curriculum Vitae · tersedia atas permintaan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSINESSES -->
+    <section class="sec sec--tight">
+      <div class="wrap">
+        <p class="kicker">/ Bisnis</p>
+        <h2 class="sec__title">What I run</h2>
+        <div class="biz">
+          <article class="biz__card">
+            <div>
+              <span class="tag">01 / Web Agency</span>
+              <h3>Nauval Dev</h3>
+              <p>Jasa pembuatan website untuk bisnis dan UMKM: landing page, company profile, sistem booking, sampai toko online yang terhubung ke WhatsApp.</p>
+              <a class="arrow" href="https://nauvaldev.my.id/" target="_blank" rel="noopener">nauvaldev.my.id</a>
+            </div>
+            <div class="browser"><div class="browser__bar"><i></i><i></i><i></i><span>nauvaldev.my.id</span></div><img src="assets/img/work/nauvaldev.webp" alt="Tampilan website Nauval Dev" width="1280" height="800" loading="lazy" /></div>
+          </article>
+          <article class="biz__card">
+            <div>
+              <span class="tag">02 / Digital Invitation</span>
+              <h3>Nauvite</h3>
+              <p>Undangan pernikahan digital yang elegan dan interaktif, dengan tema eksklusif dan mudah dibagikan ke tamu.</p>
+              <a class="arrow" href="https://nauvite.my.id/" target="_blank" rel="noopener">nauvite.my.id</a>
+            </div>
+            <div class="browser browser--tilt"><div class="browser__bar"><i></i><i></i><i></i><span>nauvite.my.id</span></div><img src="assets/img/work/nauvite.webp" alt="Tampilan website Nauvite" width="1280" height="720" loading="lazy" /></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="sec sec--white" id="work">
+      <div class="wrap">
+        <div class="work__head">
+          <div><p class="kicker">/ Selected Work</p><h2 class="sec__title">Projects</h2></div>
+          <div class="filters" id="filters" role="tablist" aria-label="Kategori project"></div>
+        </div>
+        <div id="featured"></div>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="sec" id="journey">
+      <div class="wrap">
+        <p class="kicker">/ Journey</p>
+        <h2 class="sec__title">Pengalaman &amp; sertifikasi</h2>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="sec sec--tight" id="stack">
+      <div class="wrap">
+        <p class="kicker">/ Stack</p>
+        <h2 class="sec__title">Tools yang saya pakai</h2>
+        <div class="stack" id="stackList"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT -->
+  <footer class="contact" id="contact">
+    <div class="wrap contact__in">
+      <p class="pill">Terbuka untuk project baru</p>
+      <h2>HAVE A PROJECT<br />IN MIND?</h2>
+      <p class="contact__lead">Ceritakan kebutuhan website bisnismu, sistem yang ingin dibangun, atau undangan digital lewat Nauval Dev.</p>
+      <a class="btn btn--light" id="contactBtn" target="_blank" rel="noopener">Diskusi lewat Nauval Dev</a>
+      <div class="contact__foot">
+        <div class="contact__social" id="footSocial"></div>
+        <p>© <span id="year"></span> Nauval Rafi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT DIALOG -->
+  <div class="layer" id="layer" hidden>
+    <div class="layer__bg" data-close></div>
+    <article class="dlg" role="dialog" aria-modal="true" aria-labelledby="dlgTitle">
+      <button class="dlg__x" type="button" data-close aria-label="Tutup">×</button>
+      <div id="dlgBody"></div>
+    </article>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
