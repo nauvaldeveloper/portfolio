@@ -84,6 +84,22 @@ window.PORTFOLIO = {
       links: [{ label: 'Coba demo', url: 'https://kelas-etalase.nauvaldev.my.id/' }],
     },
     {
+      id: 'lembur', cat: 'bisnis', label: 'Konsep', year: '2026',
+      title: 'Dapur Lembur',
+      short: 'Rumah makan Sunda: menu seperti kertas cetak, pesan dari meja lewat QR, bawa pulang/antar, dan reservasi saung.',
+      role: 'Konsep, desain, dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['dapur-lembur'],
+      highlights: ['Pesan dari meja lewat QR: scan, pilih menu, langsung masuk ke kasir dengan nomor meja.', 'Pajak restoran dan ongkir antar dihitung otomatis saat checkout.', 'Reservasi saung dengan sisa meja per jam, bukan sekadar form kosong.'],
+      links: [{ label: 'Coba demo', url: 'https://dapur-lembur.nauvaldev.my.id/' }],
+    },
+    {
+      id: 'padel', cat: 'bisnis', label: 'Konsep', year: '2026',
+      title: 'Pantul Padel',
+      short: 'Booking lapangan padel bergaya aplikasi: papan jadwal per jam, patungan otomatis, dan fitur cari teman main.',
+      role: 'Konsep, desain, dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['pantul-padel'],
+      highlights: ['Navigasi rel di samping (desktop) / tab bar di bawah (HP), bukan navbar biasa.', 'Papan jadwal 4 lapangan sekaligus, harga langsung terlihat per slot jam.', '"Main Bareng": gabung slot yang dibuka pemain lain, bayar patungan per orang.'],
+      links: [{ label: 'Coba demo', url: 'https://pantul-padel.nauvaldev.my.id/' }],
+    },
+    {
       id: 'hurisol', cat: 'bisnis', label: '', year: '',
       title: 'Hurisol',
       short: 'Landing page UMKM camilan homemade dengan foto produk sebagai pusat perhatian dan pemesanan lewat WhatsApp.',
