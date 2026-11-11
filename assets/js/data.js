@@ -100,6 +100,14 @@ window.PORTFOLIO = {
       links: [{ label: 'Coba demo', url: 'https://pantul-padel.nauvaldev.my.id/' }],
     },
     {
+      id: 'kibas', cat: 'bisnis', label: 'Konsep', year: '2026',
+      title: 'Kibas',
+      short: 'Pet grooming: harga otomatis sesuai ukuran & jenis bulu, pilih groomer dan jam, opsi antar-jemput.',
+      role: 'Konsep, desain, dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['kibas-grooming'],
+      highlights: ['Harga dihitung otomatis dari ukuran hewan, jenis bulu, dan paket yang dipilih.', 'Jadwal per groomer: hanya jam yang cukup untuk total durasi layanan yang bisa dipilih.', 'Syarat vaksin & kondisi hewan dikonfirmasi sebelum booking terkirim.'],
+      links: [{ label: 'Coba demo', url: 'https://kibas-grooming.nauvaldev.my.id/' }],
+    },
+    {
       id: 'hurisol', cat: 'bisnis', label: '', year: '',
       title: 'Hurisol',
       short: 'Landing page UMKM camilan homemade dengan foto produk sebagai pusat perhatian dan pemesanan lewat WhatsApp.',
