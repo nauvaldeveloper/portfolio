@@ -108,6 +108,14 @@ window.PORTFOLIO = {
       links: [{ label: 'Coba demo', url: 'https://kibas-grooming.nauvaldev.my.id/' }],
     },
     {
+      id: 'lereng-halimun', cat: 'bisnis', label: 'Konsep', year: '2026',
+      title: 'Lereng Halimun',
+      short: 'Villa & glamping: kalender tanggal kosong dengan harga per malam, total otomatis, dan booking lewat WhatsApp.',
+      role: 'Konsep, desain, dan pengembangan', stack: ['HTML', 'CSS', 'JavaScript'], images: ['lereng-halimun'],
+      highlights: ['Kalender 2 bulan: tanggal terisi dicoret, harga per malam tertulis di tiap tanggal, malam Jumat & Sabtu memakai harga akhir pekan.', 'Check-in/check-out tidak bisa melewati malam yang terisi; jumlah tamu dibatasi kapasitas tiap unit.', 'Tambahan sarapan, BBQ, api unggun, dan extra bed langsung masuk ke rincian total dan pesan WhatsApp.'],
+      links: [{ label: 'Coba demo', url: 'https://lereng-halimun.nauvaldev.my.id/' }],
+    },
+    {
       id: 'hurisol', cat: 'bisnis', label: '', year: '',
       title: 'Hurisol',
       short: 'Landing page UMKM camilan homemade dengan foto produk sebagai pusat perhatian dan pemesanan lewat WhatsApp.',
